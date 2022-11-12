@@ -3,12 +3,15 @@ package main;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import Use_cases.ConfirmTicketsofCustomer;
 import Use_cases.addbus;
 import Use_cases.adminLogin;
 import Use_cases.bookticket;
 import Use_cases.cancelticket;
+import Use_cases.contactperson;
 import Use_cases.customerlogin;
 import Use_cases.customersignup;
+import Use_cases.viewbooking;
 import Use_cases.viewticket;
 
 public class Main {
@@ -115,13 +118,16 @@ public class Main {
 			adminmethods();
 		}else if (choice==2) {
 			System.out.println("you choice option 2 ");
-//			ConfirmTicketsofCustomer();
+			ConfirmTicketsofCustomer.ConfirmTicketsofCustomerinput();
+			adminmethods();
 		}else if (choice==3) {
 			System.out.println("you choice option 3 ");
-//			ViewAllBookings ();
+            viewbooking.viewbookinginput();
+            adminmethods();
 		}else if (choice==4) {
 			System.out.println("you choice option 4 ");
-//			providecontactpersondetails ();
+			contactperson.contactpersoninput();
+			adminmethods();
 		}else if (choice==5) {
 			System.out.println("you choice option 5 ");
 			choice();
