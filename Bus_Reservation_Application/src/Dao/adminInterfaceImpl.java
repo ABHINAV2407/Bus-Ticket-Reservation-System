@@ -119,11 +119,16 @@ public class adminInterfaceImpl implements adminInterface{
 					System.out.println("enter contact number to provide to customer");
 					int number =sc.nextInt();
 					System.out.println( number+ " number send to customer");
-				}else {
+					System.out.println("------------------------------------------------");
+					System.out.println("------------------------------------------------");
+				}else 
+				{
 					System.out.println( "Status : Pending" );
 					System.out.println( "Booking Id : " + rs.getInt("bookingid") );
 					System.out.println( "Bus No : " + rs.getInt("BusNo") );
 					System.out.println("first confirm the ticket then provide contact number");
+					System.out.println("------------------------------------------------");
+					System.out.println("------------------------------------------------");
 				}
 				
 				
