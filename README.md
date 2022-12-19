@@ -79,5 +79,5 @@
 - [Email](abhinav636363@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/abhinav-bajpai24/)
 # Contributor
-#### Mayuri Samanta
+#### Abhinav Bajpai
 >[GitHub](https://github.com/ABHINAV2407)
